@@ -1,6 +1,6 @@
 {
   "name": "azn_rates",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AZN-in məzənnəsi JSON formatında",
   "main": "index.js",
   "keywords": ["currency","mezenne","azn","azerbaijan"],
