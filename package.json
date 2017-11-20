@@ -1,6 +1,6 @@
 {
   "name": "azn_rates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AZN-in məzənnəsi JSON formatında",
   "main": "index.js",
   "keywords": ["currency","mezenne","azn","azerbaijan"],
@@ -17,6 +17,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/mchingiz/azn_rates"
   }
 }
