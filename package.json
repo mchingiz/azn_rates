@@ -1,8 +1,9 @@
 {
-  "name": "w",
+  "name": "azn_rates",
   "version": "1.0.0",
-  "description": "",
+  "description": "AZN-in məzənnəsi JSON formatında",
   "main": "index.js",
+  "keywords": ["currency","mezenne","azn","azerbaijan"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,9 @@
     "dateformat": "^3.0.2",
     "request": "^2.83.0",
     "xml2js": "^0.4.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
   }
 }
