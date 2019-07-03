@@ -3,9 +3,16 @@
   "version": "1.0.3",
   "description": "AZN-in məzənnəsi JSON formatında",
   "main": "index.js",
-  "keywords": ["currency","mezenne","azn","azerbaijan"],
+  "keywords": [
+    "currency",
+    "mezenne",
+    "azn",
+    "azerbaijan"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Chingiz Mammadli",
   "license": "ISC",
@@ -13,10 +20,12 @@
     "cheerio": "^1.0.0-rc.2",
     "dateformat": "^3.0.2",
     "request": "^2.83.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "snyk": "^1.189.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mchingiz/azn_rates"
-  }
+  },
+  "snyk": true
 }
